@@ -15,6 +15,7 @@ if __name__ == '__main__':
     human = 0
 
     # 分類器の指定と特徴量の取得
+    #カスケード分類器の取得は各自で
     face_cascade = cv2.CascadeClassifier(r"opencv-4.1.1\data\haarcascades\haarcascade_frontalface_alt2.xml")
     eye_cascade = cv2.CascadeClassifier(r"opencv-4.1.1\data\haarcascades\haarcascade_eye.xml")
 
